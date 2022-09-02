@@ -1,0 +1,15 @@
+{
+    "id": "uploader",
+    "name": "Uploader",
+    "description": "Plugin for Azuriom",
+    "version": "1.0.0",
+    "url": "https://azuriom.com",
+    "authors": [
+        "Azuriom"
+    ],
+    "azuriom_api": "1.0.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\Uploader\\Providers\\UploaderServiceProvider",
+        "\\Azuriom\\Plugin\\Uploader\\Providers\\RouteServiceProvider"
+    ]
+}
