@@ -1,13 +1,12 @@
 {
     "id": "uploader",
     "name": "Uploader",
-    "description": "Plugin for Azuriom",
+    "description": "About\nAzuriom plugin for uploading files.",
     "version": "1.0.0",
-    "url": "https://azuriom.com",
+    "url": "https://github.com/nsavchin/plugin-uploader",
     "authors": [
-        "Azuriom"
+        "nsavchin"
     ],
-    "azuriom_api": "1.0.0",
     "providers": [
         "\\Azuriom\\Plugin\\Uploader\\Providers\\UploaderServiceProvider",
         "\\Azuriom\\Plugin\\Uploader\\Providers\\RouteServiceProvider"
