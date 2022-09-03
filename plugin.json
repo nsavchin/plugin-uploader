@@ -1,7 +1,7 @@
 {
     "id": "uploader",
     "name": "Uploader",
-    "description": "About\nAzuriom plugin for uploading files.",
+    "description": "Azuriom plugin for uploading files.",
     "version": "1.0.0",
     "url": "https://github.com/nsavchin/plugin-uploader",
     "authors": [

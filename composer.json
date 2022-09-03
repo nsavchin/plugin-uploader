@@ -1,7 +1,7 @@
 {
     "name": "azuriom/uploader",
     "type": "azuriom-plugin",
-    "description": "Plugin for Azuriom",
+    "description": "Azuriom plugin for uploading files.",
     "autoload": {
         "psr-4": {
             "Azuriom\\Plugin\\Uploader\\": "src/"
