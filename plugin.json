@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "url": "https://github.com/nsavchin/plugin-uploader",
     "authors": [
-        "nsavchin"
+        "msavchin"
     ],
     "providers": [
         "\\Azuriom\\Plugin\\Uploader\\Providers\\UploaderServiceProvider",
