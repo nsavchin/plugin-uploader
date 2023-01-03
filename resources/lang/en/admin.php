@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Files',
+    'title' => 'File',
     'success' => 'File uploaded successfully',
     'deleted' => 'File deleted successfully',
     'file_name' => 'File name',
