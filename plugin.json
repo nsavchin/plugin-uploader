@@ -7,6 +7,7 @@
     "authors": [
         "nsavchin"
     ],
+    "azuriom_api": "1.0.0",
     "providers": [
         "\\Azuriom\\Plugin\\Uploader\\Providers\\UploaderServiceProvider",
         "\\Azuriom\\Plugin\\Uploader\\Providers\\RouteServiceProvider"
