@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('files', function (Blueprint $table) {
             $table->id();
             $table->string('title')->unique();
-            $table->text('link');
+            $table->text('link')->unique();
         });
 
     }

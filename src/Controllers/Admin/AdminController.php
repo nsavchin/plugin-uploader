@@ -27,12 +27,12 @@ class AdminController extends Controller
     public function add(Request $request)
     {
         $request->validate([
-            'title' => 'required|string|min:1',
-            'file' => 'required|mimes:exe,jar,rar,zip,7z'
+            'title' => 'required|string|min:1|max:255',
+            'file' => 'required|mimes:exe,jar,rar,zip,7z|unique:files,title'
         ]);
 
         if ($request->hasFile('file')){
-            $file = $request->file('file')->storeAs('files', $request->title . '.' . $request->file->extension(), 'public');
+            $file = $request->file('file')->storeAs('files', \Str::slug($request->title) . '.' . $request->file->extension(), 'public');
             Files::create([
                 'title' => $request->title,
                 'link' => $file
